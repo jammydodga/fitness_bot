@@ -26,7 +26,7 @@ client.on('message', msg => {
 
   client.on('message', msg => {
     if (msg.content == '-help') {
-      msg.reply("This bot helps the boys make gains by choosing a random number that represents one member of the group and then another random integer to decide how many and another random integer to describe the activity")
+      msg.reply("This bot helps the boys make gains by choosing a random number that represents one member of the group and then another random integer to decide how many and another random integer to describe the activity. Try -workout for random or -meworkout for personal")
     }
   });
 
