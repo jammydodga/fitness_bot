@@ -1,8 +1,10 @@
 const { randomInt } = require('crypto')
 const Discord = require('discord.js')
+require('dotenv').config()
 const client = new Discord.Client()
 const user_list = ["Will", "Mason", "Lee", "Tom", "Ally", "James"]
 const activitylist = ["push-ups", "pull-ups", "dips", "sit-ups", "chin-ups", "star-jumps"]
+const token = process.env.TOKEN
 
 client.on('ready', () => {
     console.log("Connected as " + client.user.tag)
@@ -24,7 +26,7 @@ client.on('message', msg => {
 
 
 
-client.login("ODAyMTMzMjAyNzM4NzQxMjk5.YAqywg.o1Ll7HIubfqkM2fnJ_ympFHwHMw")
+client.login(token)
 //let rand1 = Math.floor((Math.random() * 100) + 1);
 //let rand2 = Math.floor((Math.random() * 6) + 1);
 //let rand3 = Math.floor((Math.random() * 6) + 1);
