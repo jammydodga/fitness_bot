@@ -26,7 +26,7 @@ client.on('message', msg => {
 
 
 
-client.login(token)
+client.login(process.env.BOT_TOKEN)
 //let rand1 = Math.floor((Math.random() * 100) + 1);
 //let rand2 = Math.floor((Math.random() * 6) + 1);
 //let rand3 = Math.floor((Math.random() * 6) + 1);
