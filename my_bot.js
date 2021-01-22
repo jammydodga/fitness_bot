@@ -24,7 +24,7 @@ client.on('message', msg => {
 
 
 
-client.login("ODAyMTMzMjAyNzM4NzQxMjk5.YAqywg.IyG7SwmHc6BOzmW7j3Ll7SUnxEg")
+client.login("ODAyMTMzMjAyNzM4NzQxMjk5.YAqywg.o1Ll7HIubfqkM2fnJ_ympFHwHMw")
 //let rand1 = Math.floor((Math.random() * 100) + 1);
 //let rand2 = Math.floor((Math.random() * 6) + 1);
 //let rand3 = Math.floor((Math.random() * 6) + 1);
