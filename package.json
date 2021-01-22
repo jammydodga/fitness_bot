@@ -1,0 +1,23 @@
+{
+  "name": "fitness-bot",
+  "version": "1.0.0",
+  "description": "fitness bot",
+  "main": "my_bot.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jammydodga/fitness_bot.git"
+  },
+  "author": "Cal#5248",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jammydodga/fitness_bot/issues"
+  },
+  "homepage": "https://github.com/jammydodga/fitness_bot#readme"
+}
